@@ -1,0 +1,41 @@
+---
+---
+
+.terminal {
+    white-space: pre-line;
+    font-size: 15px;
+    color: #aaa;
+    background-color: black;
+    font-family: monospace;
+    overflow: scroll;
+    padding: 10px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-radius: 5px;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .command, .venv {
+        color: #fff;
+    }
+
+    .path {
+        color: #12488B;
+        font-weight: bold;
+    }
+
+    .snip {
+        color: #696;
+    }
+
+    .user {
+        color: #26A269;
+        font-weight: bold;
+    }
+  }
+
+  @import "hydeout";
+  @import "code";

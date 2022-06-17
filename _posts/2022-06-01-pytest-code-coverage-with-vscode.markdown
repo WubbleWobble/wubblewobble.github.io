@@ -48,7 +48,7 @@ def test_other_numbers_are_not_entertaining():
     assert False == is_entertaining(7)
 {% endhighlight %}
 
-In VSCode, I installed the [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension:
+In VSCode, I installed the [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters){:target="_blank"}{:rel="noopener noreferrer"} extension:
 
 ![Installing Coverage Gutters](/assets/images/2022-06-01-pytest-code-coverage-with-vscode/install-extension.png)
 

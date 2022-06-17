@@ -2,7 +2,8 @@
 layout: post
 title:  "Visualising pytest code coverage in VSCode"
 date:   2022-06-01 01:01:01 +0100
-categories: python
+category: python
+tags: [python, tutorial, beginner]
 ---
 I'd figured out the basics of unit testing with Pytest, but then wanted to be able to generate code coverage statistics and visualise them in VSCode. What follows is the executive summary of my findings :)
 

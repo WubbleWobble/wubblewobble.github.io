@@ -2,7 +2,8 @@
 layout: post
 title:  "Doctrine migrations and unexpected MySQL revelations"
 date:   2022-06-16 01:01:01 +0100
-categories: [symfony, doctrine, mysql]
+categories: symfony
+tags: [symfony, doctrine, mysql]
 ---
 
 The other day I came across something that was new to me. For many years I've been coding using a PHP, Symfony and Doctrine stack, and as part of this was managing sites' database entities using the [Doctrine Migrations bundle](https://symfony.com/bundles/DoctrineMigrationsBundle/current/index.html){:target="_blank"}{:rel="noopener noreferrer"}.
